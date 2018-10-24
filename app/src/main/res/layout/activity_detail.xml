@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adnanshakeel.recyclerview.DetailActivity">
+
+
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="45dp"
+    app:srcCompat="@mipmap/ic_launcher"
+    android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView1"
+        android:background="#99FF00"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView1"
+        android:background="#99FF00"
+        android:layout_marginHorizontal="110dp"/>
+    <Button
+        android:id="@+id/btn3"
+        android:background="#99FF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginHorizontal="210dp"/>
+    <Button
+        android:id="@+id/btn4"
+        android:background="#99FF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTART"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginHorizontal="310dp"/>
+</RelativeLayout>
